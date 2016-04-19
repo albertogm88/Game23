@@ -22,14 +22,16 @@ class Configuracion: UIViewController {
         var empiezaJug = false
         let numObjetivo = objetivo.text
         
-        
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedContext = appDelegate.managedObjectContext
         let entity =  NSEntityDescription.entityForName("Parametros", inManagedObjectContext:managedContext)
         
         let param = NSManagedObject(entity: entity!, insertIntoManagedObjectContext: managedContext)
         
-        let numObjetivoInt = Int(numObjetivo!)
+        var numObjetivoInt = Int(numObjetivo!)
+        if(numObjetivoInt==nil){
+            numObjetivoInt = 23
+        }
         param.setValue(numObjetivoInt, forKey: "numObjetivo")
         if(empieza == 0){
             empiezaJug=true

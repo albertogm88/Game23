@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game23/Configuracion.swift"
-            timestampString = "481311266.592619"
+            timestampString = "482794953.586612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "comenzar(_:)"
             landmarkType = "5">
          </BreakpointContent>
