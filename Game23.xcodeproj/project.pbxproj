@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32D6BAA1CB58BF0003990E9 /* Creditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D6BA91CB58BF0003990E9 /* Creditos.swift */; };
+		D3B1C17C1CAED54E00D56EAA /* Configuracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B1C17B1CAED54E00D56EAA /* Configuracion.swift */; };
+		D3B1C17E1CB1A37F00D56EAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B1C17D1CB1A37F00D56EAA /* Images.xcassets */; };
 		D3DE18411CADB223009BF9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE18401CADB223009BF9BF /* AppDelegate.swift */; };
 		D3DE18431CADB223009BF9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE18421CADB223009BF9BF /* ViewController.swift */; };
 		D3DE18461CADB223009BF9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DE18441CADB223009BF9BF /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		D3DE184E1CADB223009BF9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DE184C1CADB223009BF9BF /* LaunchScreen.storyboard */; };
 		D3DE18591CADB223009BF9BF /* Game23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE18581CADB223009BF9BF /* Game23Tests.swift */; };
 		D3DE18641CADB223009BF9BF /* Game23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE18631CADB223009BF9BF /* Game23UITests.swift */; };
+		D3DE18721CADBA38009BF9BF /* Negocio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE18711CADBA38009BF9BF /* Negocio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32D6BA91CB58BF0003990E9 /* Creditos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Creditos.swift; path = ../Creditos.swift; sourceTree = "<group>"; };
+		D3B1C17B1CAED54E00D56EAA /* Configuracion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuracion.swift; sourceTree = "<group>"; };
+		D3B1C17D1CB1A37F00D56EAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3DE183D1CADB223009BF9BF /* Game23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DE18401CADB223009BF9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DE18421CADB223009BF9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		D3DE185F1CADB223009BF9BF /* Game23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DE18631CADB223009BF9BF /* Game23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game23UITests.swift; sourceTree = "<group>"; };
 		D3DE18651CADB223009BF9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DE18711CADBA38009BF9BF /* Negocio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Negocio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		D3DE183F1CADB223009BF9BF /* Game23 */ = {
 			isa = PBXGroup;
 			children = (
+				D32D6BA91CB58BF0003990E9 /* Creditos.swift */,
 				D3DE18401CADB223009BF9BF /* AppDelegate.swift */,
 				D3DE18421CADB223009BF9BF /* ViewController.swift */,
 				D3DE18441CADB223009BF9BF /* Main.storyboard */,
@@ -106,6 +115,9 @@
 				D3DE184C1CADB223009BF9BF /* LaunchScreen.storyboard */,
 				D3DE184F1CADB223009BF9BF /* Info.plist */,
 				D3DE18471CADB223009BF9BF /* Game23.xcdatamodeld */,
+				D3DE18711CADBA38009BF9BF /* Negocio.swift */,
+				D3B1C17B1CAED54E00D56EAA /* Configuracion.swift */,
+				D3B1C17D1CB1A37F00D56EAA /* Images.xcassets */,
 			);
 			path = Game23;
 			sourceTree = "<group>";
@@ -236,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3DE184E1CADB223009BF9BF /* LaunchScreen.storyboard in Resources */,
+				D3B1C17E1CB1A37F00D56EAA /* Images.xcassets in Resources */,
 				D3DE184B1CADB223009BF9BF /* Assets.xcassets in Resources */,
 				D3DE18461CADB223009BF9BF /* Main.storyboard in Resources */,
 			);
@@ -262,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DE18721CADBA38009BF9BF /* Negocio.swift in Sources */,
 				D3DE18431CADB223009BF9BF /* ViewController.swift in Sources */,
+				D32D6BAA1CB58BF0003990E9 /* Creditos.swift in Sources */,
 				D3DE18411CADB223009BF9BF /* AppDelegate.swift in Sources */,
 				D3DE18491CADB223009BF9BF /* Game23.xcdatamodeld in Sources */,
+				D3B1C17C1CAED54E00D56EAA /* Configuracion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +422,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Game23/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AGM.Game23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +438,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Game23/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AGM.Game23;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -489,6 +514,7 @@
 				D3DE186A1CADB223009BF9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3DE186B1CADB223009BF9BF /* Build configuration list for PBXNativeTarget "Game23Tests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +523,7 @@
 				D3DE186D1CADB223009BF9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3DE186E1CADB223009BF9BF /* Build configuration list for PBXNativeTarget "Game23UITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +532,7 @@
 				D3DE18701CADB223009BF9BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
